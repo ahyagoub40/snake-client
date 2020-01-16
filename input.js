@@ -14,8 +14,8 @@ const setupInput = function(conn) {
 };
 
 const handleUserInput = function(key) {
-  console.log(connection);
 
+  
   if (key === '\u0003') {
     process.exit();
   }
